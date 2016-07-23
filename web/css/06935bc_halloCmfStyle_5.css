@@ -1,0 +1,191 @@
+body > .hallotoolbar {
+    z-index: 500;
+    margin-left: -13px;
+    background: #000000;
+}
+
+/* Toolbar General */
+/*******************/
+
+.ui-state-active {
+    background-color: #01ADD2;
+}
+
+.hallotoolbar .halloButtonrow-1:not(:last-child) {
+    background-color: #272727;
+    text-align: right;
+    width: auto;
+    float: right;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.hallotoolbar .halloButtonrow-1:last-child {
+    border-top-right-radius: 5px;
+}
+
+.hallotoolbar .halloButtonrow:last-of-type {
+    border-top-left-radius: 5px;
+}
+
+.hallotoolbar .halloButtonrow-2 .ui-buttonset {
+    background: url('/bundles/cmfcreate/img/stripe.png') no-repeat right 5px;
+    padding: 0 6px 0 5px;
+}
+
+/* Dialog styling */
+/*******************/
+.ui-dialog {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: visible;
+    background: #FFFFFF;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background: #000000;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.ui-dialog .ui-dialog-title {
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.ui-dialog .tabs {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.ui-dialog .tabs li {
+    line-height: 30px;
+}
+
+/* Image dialog */
+.halloimage-dialog .tabs li {
+    background: #01add2 url('/bundles/cmfcreate/img/divider.png') no-repeat right;
+}
+
+.halloimage-dialog .tabs li.halloimage-tab-suggestions span {
+    background: url('/bundles/cmfcreate/img/tabicon_suggestions.png') no-repeat left;
+}
+.halloimage-dialog .tabs li.halloimage-tab-search span {
+    background: url('/bundles/cmfcreate/img/tabicon_search.png') no-repeat left;
+}
+.halloimage-dialog .tabs li.halloimage-tab-upload span {
+    background: url('/bundles/cmfcreate/img/tabicon_upload.png') no-repeat left;
+}
+
+.halloimage-dialog .tab-activeIndicator {
+    background: url('/bundles/cmfcreate/img/arrow.png');
+}
+
+.halloimage-dialog .rotationWrapper .hintArrow {
+    background: transparent url('/bundles/cmfcreate/img/drop_left.png') no-repeat -2px -2px;
+}
+
+/* Drag n Drop */
+[contenteditable] .tmpLine{
+    background-color: #ffffff;
+    width: 98%;
+    height: 2px;
+    margin: 0 auto 10px auto;
+    border-top: 2px solid #1cb8d6;
+    border-bottom: 2px solid #1cb8d6;
+    opacity: 1;
+    padding: 1px;
+}
+
+.bigOverlay, .smallOverlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(28, 184, 214, 0.4);
+}
+
+.bigOverlayRight{
+    display : block;
+    border-right : 3px dashed rgb(28, 184, 214);
+    border-left : none;
+}
+
+.bigOverlayLeft{
+    display : block;
+    border-left : 3px dashed rgb(28, 184, 214);
+    border-right : none;
+}
+
+.smallOverlayLeft{
+   border-right : 3px dashed rgb(28, 184, 214);
+}
+
+.smallOverlayRight{
+    border-left : 3px dashed rgb(28, 184, 214);
+}
+
+.ui-draggable{
+    cursor: move;
+}
+
+.ui-draggable-dragging{
+    border: 3px solid white;
+}
+
+[contenteditable] img.ui-state-disabled {
+    opacity: 1;
+}
+
+.customHelper{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    z-index: 1050;
+}
+
+.trashcan{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    background: rgba(0,0,0,0.8) url('/bundles/cmfcreate/img/trash.png') no-repeat 12px 12px;
+    border-radius: 10px;
+    cursor: none;
+}
+
+/** LINK DIALOG **/
+.hallolink-dialog .ui-dialog-content {
+    padding-top: 1em;
+}
+
+.hallolink-dialog form {
+    display: table;
+    margin: auto;
+}
+
+.hallolink-dialog form input[name=name] {
+    width: 330px;
+    margin-bottom: 7px;
+}
+
+.hallolink-dialog form input[name=url] {
+    width: 330px;
+}
+
+.hallolink-dialog form input[type=submit] {
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+/* Misc */
+div.halloEditIndicator {
+    z-index: 3;
+    opacity: 1 !important;
+}

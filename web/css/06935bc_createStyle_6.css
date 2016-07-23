@@ -1,0 +1,30 @@
+/* Create toolbar */
+/******************/
+a.create-ui-toggle {
+    background-image: url("/bundles/cmfcreate/img/createbundle.png");
+}
+
+/* General contenteditable before editing */
+/*******************************************/
+[contenteditable="true"]:hover{
+    cursor: pointer;
+}
+
+[contenteditable="true"] {
+    outline: 1px solid lightgreen;
+    position: relative;
+    z-index: 1;
+}
+
+/* General contenteditable while editing */
+/*****************************************/
+[contenteditable].inEditMode {
+    cursor: auto;
+    outline: 3px solid black;
+}
+
+/* Create ui toolbar while editing */
+/***********************************/
+.create-ui-toolbar-wrapper.editing {
+    background: rgba(160, 216, 56, 0.8);
+}
