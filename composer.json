@@ -25,7 +25,8 @@
         "sylius/sylius": "^0.19",
 
         "sensio/generator-bundle": "^2.3",
-        "sensio/distribution-bundle": "^3.0"
+        "sensio/distribution-bundle": "^3.0",
+        "phpcr/phpcr-shell": "@beta"
     },
     "require-dev": {
         "behat/behat": "^3.0",

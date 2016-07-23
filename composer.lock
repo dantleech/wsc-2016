@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "61219f1bacc086f81c1a766e1ef93adc",
-    "content-hash": "e54f1279e765f72ab154143e4337d1c5",
+    "hash": "0acaabfd9f30fb39a13da8cbc9757e54",
+    "content-hash": "88fd764d849d82f3f2fea005ef8aa8b1",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -158,6 +158,55 @@
                 "slugify"
             ],
             "time": "2016-04-08 18:57:21"
+        },
+        {
+            "name": "dantleech/glob-finder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dantleech/glob.git",
+                "reference": "d810c78826ed5140f941269c7ecf5f3ef7703df0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dantleech/glob/zipball/d810c78826ed5140f941269c7ecf5f3ef7703df0",
+                "reference": "d810c78826ed5140f941269c7ecf5f3ef7703df0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "doctrine/phpcr-bundle": "~1.2",
+                "doctrine/phpcr-odm": "~1.2",
+                "jackalope/jackalope-fs": "dev-master",
+                "phpunit/phpunit": "~4.5"
+            },
+            "suggest": {
+                "doctrine/phpcr-bundle": "To enable support for the PHPCR ODM documents",
+                "doctrine/phpcr-odm": "To enable support for the PHPCR ODM documents"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DTL\\Glob\\": "lib/DTL/Glob"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Leech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Library offering object location from hierarchrical persistent storage systems using globs",
+            "homepage": "http://www.github.com/dantleech/glob",
+            "time": "2015-03-18 08:13:31"
         },
         {
             "name": "doctrine/annotations",
@@ -6153,6 +6202,78 @@
             "time": "2014-12-08 09:40:30"
         },
         {
+            "name": "phpcr/phpcr-shell",
+            "version": "1.0.0-beta4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpcr/phpcr-shell.git",
+                "reference": "016f30ad500f48c8478a1f6bfb251e1ae50efbd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpcr/phpcr-shell/zipball/016f30ad500f48c8478a1f6bfb251e1ae50efbd8",
+                "reference": "016f30ad500f48c8478a1f6bfb251e1ae50efbd8",
+                "shasum": ""
+            },
+            "require": {
+                "dantleech/glob-finder": "~1.0",
+                "jackalope/jackalope": "~1.1",
+                "phpcr/phpcr": "~2.1",
+                "phpcr/phpcr-utils": "~1.2",
+                "symfony/console": "~2.4",
+                "symfony/dependency-injection": "~2.3",
+                "symfony/expression-language": "~2.4",
+                "symfony/finder": "~2.3",
+                "symfony/serializer": "~2.3",
+                "symfony/yaml": "~2.3"
+            },
+            "conflict": {
+                "doctrine/phpcr-bundle": "<=1.2.1"
+            },
+            "require-dev": {
+                "behat/behat": "~3.0.0",
+                "jackalope/jackalope-doctrine-dbal": "~1.1",
+                "jackalope/jackalope-fs": "dev-master",
+                "jackalope/jackalope-jackrabbit": "~1.1",
+                "phpspec/phpspec": "2.0",
+                "phpunit/phpunit": "~3.7.28",
+                "symfony/filesystem": "~2.4",
+                "symfony/process": "~2.4",
+                "symfony/symfony": "2.6"
+            },
+            "suggest": {
+                "jackalope/jackalope-doctrine-dbal": "To connect to jackalope doctrine-dbal",
+                "jackalope/jackalope-jackrabbit": "To connect to jackalope jackrabbit",
+                "jackalope/jackalope-jackrabbit-fs": "To connect to jackalope jackalope-fs"
+            },
+            "bin": [
+                "bin/phpcrsh"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dantleech",
+                    "email": "daniel@dantleech.com"
+                }
+            ],
+            "description": "Shell for PHPCR",
+            "time": "2015-11-06 09:45:42"
+        },
+        {
             "name": "phpcr/phpcr-utils",
             "version": "1.2.9",
             "source": {
@@ -7337,12 +7458,12 @@
             "version": "1.2.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony-cmf/CreateBundle.git",
+                "url": "https://github.com/symfony-cmf/create-bundle.git",
                 "reference": "86a3ade0210bc30b304f9d992ff21c403681d7f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/CreateBundle/zipball/86a3ade0210bc30b304f9d992ff21c403681d7f3",
+                "url": "https://api.github.com/repos/symfony-cmf/create-bundle/zipball/86a3ade0210bc30b304f9d992ff21c403681d7f3",
                 "reference": "86a3ade0210bc30b304f9d992ff21c403681d7f3",
                 "shasum": ""
             },
@@ -11220,7 +11341,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "phpcr/phpcr-shell": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
