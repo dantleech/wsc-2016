@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e7ba20eb6c7df015f0a23c929b257901",
-    "content-hash": "05a2839517035f27225150dd3ed910f7",
+    "hash": "140fb9ef31982e5dbcb598a6edf281b1",
+    "content-hash": "c49059bec0de22cd9e7555aae9d39aad",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -1766,16 +1766,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.18",
+            "version": "v2.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "c453c7d695da0dd1c3e713a27ec71a05da355662"
+                "reference": "a5a5ee1391fc9abadd0fd1524ca38569df72005f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/c453c7d695da0dd1c3e713a27ec71a05da355662",
-                "reference": "c453c7d695da0dd1c3e713a27ec71a05da355662",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/a5a5ee1391fc9abadd0fd1524ca38569df72005f",
+                "reference": "a5a5ee1391fc9abadd0fd1524ca38569df72005f",
                 "shasum": ""
             },
             "require": {
@@ -1841,7 +1841,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2016-07-19 06:08:11"
+            "time": "2016-07-25 14:14:57"
         },
         {
             "name": "guzzle/guzzle",
@@ -3352,25 +3352,26 @@
         },
         {
             "name": "liip/imagine-bundle",
-            "version": "1.5.3",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "b657b6601a24da525645fb5358ce77fdf57889f1"
+                "reference": "cc881beb2daea75068ad75329e6d71963fa95028"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/b657b6601a24da525645fb5358ce77fdf57889f1",
-                "reference": "b657b6601a24da525645fb5358ce77fdf57889f1",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/cc881beb2daea75068ad75329e6d71963fa95028",
+                "reference": "cc881beb2daea75068ad75329e6d71963fa95028",
                 "shasum": ""
             },
             "require": {
-                "imagine/imagine": "~0.5,<0.7",
+                "imagine/imagine": "^0.6.3,<0.7",
                 "php": "^5.3.9|^7.0",
                 "symfony/filesystem": "~2.3|~3.0",
                 "symfony/finder": "~2.3|~3.0",
                 "symfony/framework-bundle": "~2.3|~3.0",
-                "symfony/options-resolver": "~2.3|~3.0"
+                "symfony/options-resolver": "~2.3|~3.0",
+                "symfony/process": "~2.3|~3.0"
             },
             "require-dev": {
                 "amazonwebservices/aws-sdk-for-php": "~1.0",
@@ -3398,7 +3399,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -3422,7 +3423,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2016-05-06 06:27:38"
+            "time": "2016-07-22 14:52:30"
         },
         {
             "name": "midgard/createphp",
@@ -5640,16 +5641,16 @@
         },
         {
             "name": "payum/payum",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Payum/Payum.git",
-                "reference": "87e3beebd40b41f54bfb95521b9a60e00b481733"
+                "reference": "8775295bff44621701ef1b14dd3698119790d848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Payum/Payum/zipball/87e3beebd40b41f54bfb95521b9a60e00b481733",
-                "reference": "87e3beebd40b41f54bfb95521b9a60e00b481733",
+                "url": "https://api.github.com/repos/Payum/Payum/zipball/8775295bff44621701ef1b14dd3698119790d848",
+                "reference": "8775295bff44621701ef1b14dd3698119790d848",
                 "shasum": ""
             },
             "require": {
@@ -5761,7 +5762,7 @@
                 "stripe.js",
                 "withdrawal"
             ],
-            "time": "2016-07-13 08:24:52"
+            "time": "2016-07-25 07:53:17"
         },
         {
             "name": "payum/payum-bundle",
@@ -7171,16 +7172,16 @@
         },
         {
             "name": "sylius/sylius",
-            "version": "v0.19.0",
+            "version": "dev-generic_resource_controller_events",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Sylius/Sylius.git",
-                "reference": "4603cc697f856706c9a56876a534eb6ce5c13571"
+                "url": "https://github.com/dantleech/Sylius.git",
+                "reference": "49565644d5576e98293ae230ecf51b2f9ecb7be4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Sylius/zipball/4603cc697f856706c9a56876a534eb6ce5c13571",
-                "reference": "4603cc697f856706c9a56876a534eb6ce5c13571",
+                "url": "https://api.github.com/repos/dantleech/Sylius/zipball/49565644d5576e98293ae230ecf51b2f9ecb7be4",
+                "reference": "49565644d5576e98293ae230ecf51b2f9ecb7be4",
                 "shasum": ""
             },
             "require": {
@@ -7289,8 +7290,6 @@
                 "sylius/resource": "self.version",
                 "sylius/resource-bundle": "self.version",
                 "sylius/search-bundle": "self.version",
-                "sylius/sequence": "self.version",
-                "sylius/sequence-bundle": "self.version",
                 "sylius/settings-bundle": "self.version",
                 "sylius/shipping": "self.version",
                 "sylius/shipping-bundle": "self.version",
@@ -7308,15 +7307,15 @@
                 "sylius/web-bundle": "self.version"
             },
             "require-dev": {
-                "akeneo/phpspec-skip-example-extension": "~1.2",
+                "akeneo/phpspec-skip-example-extension": "^2.0",
                 "behat/behat": "~3.0",
                 "behat/mink": "~1.6",
                 "behat/mink-browserkit-driver": "~1.2",
                 "behat/mink-extension": "~2.0",
                 "behat/mink-selenium2-driver": "~1.2",
                 "behat/symfony2-extension": "~2.0",
-                "bossa/phpspec2-expect": "^1.0",
                 "fabpot/php-cs-fixer": "^1.11",
+                "friends-of-behat/performance-extension": "^1.0",
                 "hwi/oauth-bundle": "~0.3",
                 "lakion/api-test-case": "^1.0@dev",
                 "lakion/mink-debug-extension": "^1.0.3",
@@ -7324,9 +7323,9 @@
                 "matthiasnoback/symfony-config-test": "^2.0",
                 "matthiasnoback/symfony-dependency-injection-test": "^1.0",
                 "mikey179/vfsstream": "^1.6",
-                "pamil/phpspec-generator-extension": "^0.3",
+                "pamil/phpspec-generator-extension": "^0.4",
                 "pamil/prophecy-common": "^0.1",
-                "phpspec/phpspec": "^2.4",
+                "phpspec/phpspec": "^3.0",
                 "phpunit/phpunit": "~4.1",
                 "se/selenium-server-standalone": "^2.52"
             },
@@ -7338,7 +7337,7 @@
             "type": "project",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.19-dev"
+                    "dev-master": "1.0-dev"
                 },
                 "incenteev-parameters": {
                     "file": "app/config/parameters.yml"
@@ -7353,11 +7352,37 @@
                     "Sylius\\Component\\": "src/Sylius/Component/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "travis-build": [
+                    "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                    "Symfony\\Cmf\\Bundle\\CreateBundle\\Composer\\ScriptHandler::downloadCreateAndCkeditor"
+                ],
+                "post-install-cmd": [
+                    "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                    "Symfony\\Cmf\\Bundle\\CreateBundle\\Composer\\ScriptHandler::downloadCreateAndCkeditor",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                ],
+                "post-update-cmd": [
+                    "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
+                    "Symfony\\Cmf\\Bundle\\CreateBundle\\Composer\\ScriptHandler::downloadCreateAndCkeditor",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+                    "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
+                ]
+            },
             "license": [
                 "MIT"
             ],
             "authors": [
+                {
+                    "name": "Paweł Jędrzejewski",
+                    "homepage": "http://pjedrzejewski.com"
+                },
                 {
                     "name": "Sylius project",
                     "homepage": "http://sylius.org"
@@ -7365,15 +7390,14 @@
                 {
                     "name": "Community contributions",
                     "homepage": "http://github.com/Sylius/Sylius/contributors"
-                },
-                {
-                    "name": "Paweł Jędrzejewski",
-                    "homepage": "http://pjedrzejewski.com"
                 }
             ],
             "description": "E-Commerce platform for PHP, based on Symfony framework.",
             "homepage": "http://sylius.org",
-            "time": "2016-07-06 19:57:13"
+            "support": {
+                "source": "https://github.com/dantleech/Sylius/tree/generic_resource_controller_events"
+            },
+            "time": "2016-07-28 07:06:26"
         },
         {
             "name": "symfony-cmf/block-bundle",
@@ -10327,16 +10351,16 @@
         },
         {
             "name": "lakion/api-test-case",
-            "version": "1.0.0-alpha.1",
+            "version": "1.0.0-alpha.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakion/ApiTestCase.git",
-                "reference": "1d6540ace985159c31f670057adf02b45206c40b"
+                "reference": "f5335c28bcaeb4134e1842c64f128b44b44d3fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakion/ApiTestCase/zipball/1d6540ace985159c31f670057adf02b45206c40b",
-                "reference": "1d6540ace985159c31f670057adf02b45206c40b",
+                "url": "https://api.github.com/repos/Lakion/ApiTestCase/zipball/f5335c28bcaeb4134e1842c64f128b44b44d3fc7",
+                "reference": "f5335c28bcaeb4134e1842c64f128b44b44d3fc7",
                 "shasum": ""
             },
             "require": {
@@ -10345,7 +10369,7 @@
                 "doctrine/doctrine-bundle": "^1.6.3",
                 "doctrine/orm": "^2.4.8",
                 "nelmio/alice": "^2.1.4",
-                "php": "^5.5.9|^7.0",
+                "php": "^5.6|^7.0",
                 "phpspec/php-diff": "^1.0",
                 "phpunit/phpunit": "^4.8.26|^5.0",
                 "polishsymfonycommunity/symfony-mocker-container": "^1.0",
@@ -10402,7 +10426,7 @@
                 "testcase",
                 "xml"
             ],
-            "time": "2016-07-20 07:55:52"
+            "time": "2016-07-22 13:31:06"
         },
         {
             "name": "lakion/mink-debug-extension",
@@ -11682,6 +11706,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "sylius/sylius": 20,
         "phpcr/phpcr-shell": 10
     },
     "prefer-stable": true,

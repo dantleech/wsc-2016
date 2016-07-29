@@ -19,10 +19,16 @@
             "homepage": "http://github.com/Sylius/Sylius/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dantleech/sylius"
+        }
+    ],
     "require": {
         "php": "^5.6|^7.0",
 
-        "sylius/sylius": "^0.19",
+        "sylius/sylius": "dev-generic_resource_controller_events",
 
         "sensio/generator-bundle": "^2.3",
         "sensio/distribution-bundle": "^3.0",
