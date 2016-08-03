@@ -1,0 +1,33 @@
+sylius_grid:
+    drivers:
+        - doctrine/phpcr-odm
+#    templates:
+#        action:
+#            update: 'SyliusAdminBundle:Link:_update.html.twig'
+#            delete: 'SyliusAdminBundle:Link:_delete.html.twig'
+#            create: 'SyliusAdminBundle:Link:_create.html.twig'
+#        filter:
+#            string: 'SyliusAdminBundle:Grid:Filter/string.html.twig'
+#            boolean: 'SyliusAdminBundle:Grid:Filter/boolean.html.twig'
+    grids:
+        app_post:
+            driver:
+                options:
+                    class: AppBundle\Entity\Post
+            fields:
+                title:
+                    type: string
+                published_at:
+                    type: datetime
+                    options:
+                        format: Y-m-d H:i:s
+            actions:
+                main:
+                    create:
+                        type: create
+                item:
+                    update:
+                        type: update
+                    delete:
+                        type: delete
+

@@ -1,0 +1,8 @@
+post:
+    resource: |
+        alias: app.post
+        grid: app_post
+        templates: SyliusAdminBundle:Crud
+        redirect: update
+        except: [ 'show ']
+    type: sylius.resource

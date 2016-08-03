@@ -8,6 +8,7 @@ imports:
 
     - { resource: "parameters.yml" }
     - { resource: "security.yml" }
+    - { resource: "websummercamp/config.yml" }
 
 framework:
     translator: { fallback: "%locale%" }
