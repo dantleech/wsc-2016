@@ -14,4 +14,3 @@ sylius_api:
 
 websummercamp:
     resource: "websummercamp/routing.yml"
-    prefix: /admin

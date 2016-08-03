@@ -3,3 +3,8 @@ services:
         class: AppBundle\Menu\AdminMenuListener
         tags:
             - { name: kernel.event_listener, event: sylius.menu.admin.main, method: onMenuConfigure }
+
+    app.controller.posts:
+        class: AppBundle\PostsController
+        arguments:
+            - @templating

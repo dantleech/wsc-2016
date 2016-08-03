@@ -6,3 +6,10 @@ post:
         redirect: update
         except: [ 'show ']
     type: sylius.resource
+    prefix: /admin
+
+shop_posts:
+    pattern: /latest-news
+    defaults:
+        _controller: 'app.controller.posts:indexAction'
+    methods: [ GET ]
