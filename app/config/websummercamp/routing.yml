@@ -1,3 +1,9 @@
+shop_posts:
+    pattern: /shop/latest-news
+    defaults:
+        _controller: 'app.controller.posts:indexAction'
+    methods: [ GET ]
+
 post:
     resource: |
         alias: app.post
@@ -7,9 +13,3 @@ post:
         except: [ 'show ']
     type: sylius.resource
     prefix: /admin
-
-shop_posts:
-    pattern: /latest-news
-    defaults:
-        _controller: 'app.controller.posts:indexAction'
-    methods: [ GET ]

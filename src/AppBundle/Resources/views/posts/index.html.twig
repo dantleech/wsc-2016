@@ -1,0 +1,12 @@
+{% extends "@SyliusShop/layout.html.twig" %}
+
+{% block content %}
+{% for post in posts %}
+    <article>
+        <h3>{{ post.title }}</h3>
+        <p>
+            {{ post.body|slice(0, 100) }}
+        </p>
+    </article>
+{% endfor %}
+{% endblock %}

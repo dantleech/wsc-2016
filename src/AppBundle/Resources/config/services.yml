@@ -5,6 +5,7 @@ services:
             - { name: kernel.event_listener, event: sylius.menu.admin.main, method: onMenuConfigure }
 
     app.controller.posts:
-        class: AppBundle\PostsController
+        class: AppBundle\Controller\PostsController
         arguments:
             - @templating
+            - @doctrine.orm.entity_manager
