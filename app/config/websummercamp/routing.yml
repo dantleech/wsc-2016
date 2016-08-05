@@ -11,5 +11,6 @@ post:
         templates: SyliusAdminBundle:Crud
         redirect: update
         except: [ 'show ']
+        form: AppBundle\Form\PostType
     type: sylius.resource
     prefix: /admin
