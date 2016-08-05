@@ -43,3 +43,4 @@ Authors
 
 Sylius was originally created by [Paweł Jędrzejewski](http://pjedrzejewski.com).
 See the list of [contributors](https://github.com/Sylius/Sylius/contributors).
+# wsc-2016
