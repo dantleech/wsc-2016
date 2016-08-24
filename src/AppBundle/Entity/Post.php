@@ -3,11 +3,12 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Sylius\Component\Resource\Model\ResourceInterface;
 
 /**
  * @ORM\Entity()
  */
-class Post
+class Post implements ResourceInterface
 {
     /**
      * @ORM\Id()
