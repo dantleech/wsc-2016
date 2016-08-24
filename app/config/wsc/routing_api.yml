@@ -1,0 +1,6 @@
+app_post_rest_api:
+    resource: |
+        alias: app.post
+        section: api # prevents the route names colliding
+    type: sylius.resource_api
+    prefix: /app-api

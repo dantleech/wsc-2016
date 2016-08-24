@@ -14,3 +14,6 @@ sylius_admin:
 sylius_api:
     resource: "@SyliusApiBundle/Resources/config/routing/main.yml"
     prefix: /api
+
+app_api:
+    resource: "wsc/routing_api.yml"

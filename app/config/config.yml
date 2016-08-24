@@ -56,6 +56,6 @@ fos_rest:
     format_listener:
         rules:
             # for purposes of workshop, put our API outside of the firewall
-            # - { path: '^/app-api', priorities: ['json', 'xml'], fallback_format: json, prefer_extension: true }
+            - { path: '^/app-api', priorities: ['json', 'xml'], fallback_format: json, prefer_extension: true }
             - { path: '^/api', priorities: ['json', 'xml'], fallback_format: json, prefer_extension: true }
             - { path: '^/', stop: true }
