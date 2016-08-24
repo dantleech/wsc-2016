@@ -3,3 +3,6 @@ sylius_resource:
         app.post:
             classes:
                 model: AppBundle\Entity\Post
+            translation:
+                classes:
+                    model: AppBundle\Entity\PostTranslation

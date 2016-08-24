@@ -3,5 +3,7 @@ app_post_rest:
         alias: app.post
         templates: SyliusAdminBundle:Crud
         grid: app_post
+        form: AppBundle\Form\PostType
+        except: [ "show " ]
     type: sylius.resource
     prefix: /admin
