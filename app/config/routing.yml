@@ -17,3 +17,6 @@ sylius_api:
 
 app_api:
     resource: "wsc/routing_api.yml"
+
+app_admin:
+    resource: "wsc/routing.yml"

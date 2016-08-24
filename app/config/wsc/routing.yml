@@ -1,0 +1,6 @@
+app_post_rest:
+    resource: |
+        alias: app.post
+        templates: SyliusAdminBundle:Crud
+    type: sylius.resource
+    prefix: /admin
