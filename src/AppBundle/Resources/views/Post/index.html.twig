@@ -13,6 +13,10 @@
         {% if post.publishedAt %}
             <i>{{ post.publishedAt.format('Y-m-d H:i:s') }}</i>
         {% endif %}
+
+        {% for taxon in post.categories %}
+        <span class="ui horizontal red label">{{ taxon.name }}</span>
+        {% endfor %}
     </div>
 
 {% endfor %}

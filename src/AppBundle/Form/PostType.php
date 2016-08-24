@@ -15,6 +15,10 @@ class PostType extends AbstractResourceType
 
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
+        $builder->add('categories', 'sylius_taxon_choice', [
+            'root' => 'Post Categories',
+            'multiple' => true,
+        ]);
         $builder->add('publishedAt', 'datetime');
         $builder->add('translations', 'sylius_translations', [
             'type' => PostTranslationType::class

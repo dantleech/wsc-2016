@@ -23,6 +23,11 @@ class Post implements ResourceInterface, TranslatableInterface
     private $id;
 
     /**
+     * @ORM\ManyToMany(targetEntity="Sylius\Component\Taxonomy\Model\TaxonInterface")
+     */
+    private $categories;
+
+    /**
      * @ORM\Column(type="datetime", nullable=true)
      */
     private $publishedAt;
@@ -65,5 +70,15 @@ class Post implements ResourceInterface, TranslatableInterface
     public function getId() 
     {
         return $this->id;
+    }
+
+    public function getCategories() 
+    {
+        return $this->categories;
+    }
+    
+    public function setCategories($categories)
+    {
+        $this->categories = $categories;
     }
 }
