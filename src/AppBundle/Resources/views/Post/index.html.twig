@@ -1,0 +1,22 @@
+{% extends "SyliusShopBundle::layout.html.twig" %}
+
+{% block content %}
+
+<h2>Latest News</h3>
+
+{% for post in posts %}
+
+    <div class="ui segment">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.body }}</h4>
+    
+        {% if post.publishedAt %}
+            <i>{{ post.publishedAt.format('Y-m-d H:i:s') }}</i>
+        {% endif %}
+    </div>
+
+{% endfor %}
+
+<br />
+
+{% endblock %}
