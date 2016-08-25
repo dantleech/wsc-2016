@@ -6,3 +6,12 @@ services:
                 name: kernel.event_listener
                 event: sylius.menu.admin.main
                 method: buildMenu
+
+
+    app.promotion.rule_checker.karma:
+        class: AppBundle\Promotion\KarmaRuleChecker
+        tags:
+            -
+                name: sylius.promotion_rule_checker
+                type: karma
+                label: Customer Karma
