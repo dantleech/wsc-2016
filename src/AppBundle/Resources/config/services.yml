@@ -15,3 +15,11 @@ services:
                 name: sylius.promotion_rule_checker
                 type: karma
                 label: Customer Karma
+
+    app.promotion.action.karma_multiplier:
+        class: AppBundle\Promotion\KarmaMultiplierAction
+        tags:
+            -
+                name: sylius.promotion_action
+                type: karma_multiplier
+                label: Karma Multiplier
