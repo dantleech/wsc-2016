@@ -6,3 +6,9 @@ sylius_resource:
             translation:
                 classes:
                     model: AppBundle\Entity\PostTranslation
+
+sylius_customer:
+    resources:
+        customer:
+            classes:
+                model: AppBundle\Entity\Customer
